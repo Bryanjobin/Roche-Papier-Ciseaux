@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Roche Papier Ciseaux</title>
+</head>
+<body>
+    <h1>Roche, Papier, Ciseaux</h1>
+    <section class="jeuWrapper">
+        <div class="jeuChoix">
+            <button class="choix_Roche">Roche</button>
+            <button class="choix_Papier">Papier</button>
+            <button class="choix_Ciseaux">Ciseaux</button>
+        </div>
+        <div class="resultatsWrapper">
+            <h2>Resultat</h2>
+            <ul>
+                <li>Vous: <span class="joueurChoix"></span></li>
+                <li>VS</li>
+                <li>Ordi: <span class="ordiChoix"></span></li>
+            </ul>
+            <div class="vicOuDef"></div>
+            <h3 class="victoireText">Victoire</h3>
+            <h3 class="defaiteText">Défaite</h3>
+            <h3 class="nulText">Nul</h3>
+        </div>
+        <div class="scoreboardWrapper">
+            <h2>Score</h2>
+            <ul>
+                <li>Vous: <span class="joueurScore">2</span></li>
+                <li>Ordi: <span class="ordiScore">0</span></li>
+            </ul>
+        </div>
+    </section>
+    <section class="boutonsWrapper">
+        <div class="boutons">
+            <button class="btnJouer">Jouer</button>
+            <button class="btnRejouer">Rejouer</button>
+        </div>
+    </section>
+</body>
+</html>
